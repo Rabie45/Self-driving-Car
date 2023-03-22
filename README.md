@@ -1,6 +1,6 @@
 # Self-driving-Car
 
-## points to be Explanied
+## Points to be explanied
 
     - Finding lane
     - Warping lane
