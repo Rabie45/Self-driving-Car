@@ -48,7 +48,11 @@ this is how the speed and the distance are calculated.
 The system software consists of the Self-Parking State Machine and associated functions and interfaces .
 
 Self-Parking State Machine: The FSM is used to move the Robot Car from initial position to the final parked position. The various states make use of different combinations of sensors to control the movement of the robot .
-![Uploading 1.png…]()
+
+
+![1](https://user-images.githubusercontent.com/76526170/227635367-d871fc18-59d3-4fdb-965d-92d5c17cc426.png)
+
+
 ![2](https://user-images.githubusercontent.com/76526170/227623418-976710dc-20fd-49ed-950a-62ae1e500d43.png)
 ![3](https://user-images.githubusercontent.com/76526170/227623524-1b4adf11-6638-442d-9542-aff67b5e8551.png)
 
