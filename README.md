@@ -36,7 +36,6 @@ distance covered = 207.4 x 10 = 2074 mm = 2.074 meters
 time taken to cover that distance = 60 seconds
 speed = 2.074 / 60 = .034 m/s or 34 mm/s
 this is how the speed and the distance are calculated. 
-
     - Stplizer:
         To stplize the speed of the motor
     - Server video streaming:
