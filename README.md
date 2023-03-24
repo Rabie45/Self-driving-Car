@@ -24,10 +24,25 @@ A lane change has been described a lane change in three parts in  the head porti
 ![gggg](https://user-images.githubusercontent.com/76526170/226899679-4475659c-f47b-4dec-8515-eceb2357988b.PNG)
 
 
-    - Ticks with ir
+    - Ticks with ir:
+           opto interrupters are an electronic component with many applications. in fact, one of the most common uses of this is in the mouse scroll. it consists of a light, usually an ir led, and a phototransistor. there is a small gap between these two sensors. when the led emits light onto the phototransistor, it completes the circuit and the current flows through it. so now when the opaque encodes moves in between the opto interrupter, it interrupts the flow of current. 
+rotary encoders have 20 equally spaces slots on them. so when the encoder rotates, it allows small pulses of light to reach the photo sensor. these pulses are further used to calculated the speed and the distance. 
+to calculate the speed, we need the distance and the time required to cover it. we also need the circumference of the wheel. 
+generally the diameter of such rotary encoders is 66 mm. so the circumference is 207.4 mm.
+66 x pi = 207.4 mm.
+so we can easily calculate the distance now from the number of revolutions of the encoder. 
+let us consider the case where the encoder has done 10 revolutions in a minute. 
+distance covered = 207.4 x 10 = 2074 mm = 2.074 meters
+time taken to cover that distance = 60 seconds
+speed = 2.074 / 60 = .034 m/s or 34 mm/s
+this is how the speed and the distance are calculated. 
+
     - Stplizer:
-    - Server video streaming
-    - Parking with ultrasonic (Space detiction)
+        A stabilizer bar system is part of most vehicle suspension systems. It is designed to reduce body roll and fine tune the suspension as mentioned in the ideal scenario above. It connects the front wheels (left and right), and in many cases the rear wheels, through short links connected to a suspension component at each wheel. Stabilizer bars are also referred to as anti-sway bars, sway bars, anti-roll bars, and roll bars.
+    - Server video streaming:
+    
+    - Parking with ultrasonic (Space detiction):
+        
 
 ## Tested and fails
 
