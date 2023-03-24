@@ -43,7 +43,7 @@ this is how the speed and the distance are calculated.
     
     - Parking with ultrasonic (Space detiction):
         The system is a low-cost prototype for implementing a parallel parking algorithm on a mobile robot car, using a Raspberry Pi, camera, Ultrasonic sensors and an optical sensor. A hardware push button starts process of self-parking the car. On pressing the button, the robot moves forward, while scanning for vacant spots on the side using ultrasonic sensor array and the camera. On finding a suitable spot of appropriate dimensions, the robot moves forward and stops at an appropriate distance. The robot then makes a 45 degree turn and back up into the spot. The ultrasonic sensors at the back of the robot allows it to move backward till the obstacle. Then the robot makes another 45 degree in the opposite direction to become straight. After this using the front and rear sensors, the robot can park itself within the spot. The control algorithm goes through various stages, where the Raspberry Pi would use various combinations of the sensor data to make decisions and rotate the servo motors in appropriate direction to maneuver the robot. The robot car should select only those spots in which it can fit in. It should also not collide with the walls or other vehicles during the entire process.
-        ![1](https://user-images.githubusercontent.com/76526170/227623194-fb06d989-4043-4877-a772-8c4d1b8c055c.png)
+
 
 The system software consists of the Self-Parking State Machine and associated functions and interfaces .
 
