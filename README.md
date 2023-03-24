@@ -6,6 +6,7 @@
 The idea is to find the path using color detection or edge detector and then getting the curve using summation of pixels in the y direction i.e a histogram. We    can split the task into 5 different steps. This includes Thresholding, Warping , Histogram, Averaging, and Displaying. Since we have been creating modules so   far, we are going to create a module for lane detection as well. This way we don’t need to put all the code in one script instead we can have separate python files that each perform their separate tasks. So for this project we will have a Main Script that will be connected to our Motor Module and the Lane Detection             Module. Since the Lane Detection code will take up some space we will separate all the functions into a Utilities file keeping the main Module neat and clean.
       ![image](https://user-images.githubusercontent.com/76526170/226867338-b16d2373-2b2e-47da-a4f1-d0e62292cb2f.png)
 
+
     - Warping lane :
  So we can simply crop our image, but this is not enough since we want to look at the road as if we were watching from the top . This is known as a bird eye view       and it is important because it will allow us to easily find the curve. To warp the image we need to define the initial points. These points we can determine             manually. So to make this process easier we could use track bars to experiment with different values. The idea is to get a rectangle shape when the road is             straight.
       ![image](https://user-images.githubusercontent.com/76526170/226867415-df8cb357-6dda-43db-a65a-7056272aee3a.png)
@@ -47,6 +48,7 @@ this is how the speed and the distance are calculated.
 The system software consists of the Self-Parking State Machine and associated functions and interfaces .
 
 Self-Parking State Machine: The FSM is used to move the Robot Car from initial position to the final parked position. The various states make use of different combinations of sensors to control the movement of the robot .
+![Uploading 1.png…]()
 ![2](https://user-images.githubusercontent.com/76526170/227623418-976710dc-20fd-49ed-950a-62ae1e500d43.png)
 ![3](https://user-images.githubusercontent.com/76526170/227623524-1b4adf11-6638-442d-9542-aff67b5e8551.png)
 
